@@ -1,0 +1,66 @@
+
+
+@media only screen and (min-width:960px) {
+
+    *{
+        font-size: 18px;
+    }
+    .infoCard{
+        width: 20%;
+    }
+    .infoOpacBack{
+        height: 10rem;
+        width: 47rem;
+        background-color: #F5CEE2;
+        opacity: 0.3;
+        position: absolute;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:959px) {
+
+    *{
+        font-size: 14px;
+    }
+    .infoText{
+        height: 160px;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+    .infoCard{
+        width: 40%;
+    }
+    .infoOpacBack{
+        height: 9.5rem;
+        width: 37rem;
+        background-color: #F5CEE2;
+        opacity: 0.3;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    *{
+        font-size: 8px;
+    }
+    .infoText{
+        height: 120px;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+    .activitesImg{
+        width: 23rem;
+        height: 23rem;
+    }
+    .infoOpacBack{
+        height: 10rem;
+        width: 47rem;
+        background-color: #F5CEE2;
+        opacity: 0.3;
+        position: absolute;
+    }
+}
